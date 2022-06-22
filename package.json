@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/governance",
+  "name": "@ariswap/governance",
   "version": "1.0.2",
-  "description": "🏛 Governance contracts for the Uniswap protocol",
+  "description": "🏛 Governance contracts for the Ariswap protocol",
   "author": "Noah Zinsmeister",
   "license": "MIT",
   "files": [
@@ -16,9 +16,9 @@
     "prepublishOnly": "yarn test"
   },
   "devDependencies": {
+    "@ariswap/v2-core": "^1.0.2",
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
-    "@uniswap/v2-core": "^1.0.1",
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.1.0",
     "ethereumjs-util": "^7.0.4",
@@ -26,7 +26,10 @@
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "solc": "0.5.16",
-    "ts-node": "^9.0.0",
+    "ts-node": "^10.8.1",
     "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
